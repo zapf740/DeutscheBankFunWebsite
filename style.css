@@ -1,0 +1,55 @@
+li {
+margin: 20px;
+padding: 20px;
+align-items:center;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    align-items:center;
+}
+
+body{
+    background-color: black;
+    align-items:center;
+}
+
+li:hover{
+    background-color: blue;
+    align-items:center;
+}
+
+a{
+    
+text-decoration: none;
+color: white;
+align-items:center;
+}
+
+b{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items:center;
+    
+margin: 20px;
+padding: 20px;
+}
+b:hover{
+    
+    background-color: blue;
+    align-items:center;
+}
+
+h1{
+    
+text-decoration: none;
+color: white;
+align-items:center;
+}
+
+head{
+    align-items:center;
+}
