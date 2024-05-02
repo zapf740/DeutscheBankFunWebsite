@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Individueller Döner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: white;">
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.3.4/lib/darkmode-js.min.js"></script>
+<script>
+  new Darkmode().showWidget();
+</script>
+    <header>
+    <a href="index.html"><img src="images.png" alt="Bank"></a>
+        <h1 class="title">Dein individueller Döner</h1>
+    </header>
+    <nav>
+        <ul>
+          <li><a href="index.html" class="button">Startseite</a></li>
+          <li><a href="angebote.html" class="button">Unsere Döner</a></li>
+          <li><a href="spiel.html" class="button">Training</a></li>
+          <li><a href="kontakt.html" class="button">Kontakt</a></li>
+        </ul>
+      </nav>
+    <main style="background-color: white;">
+        <section>
+            <h2>Stelle deinen Döner zusammen:</h2>
+            <form id="döner-form">
+                <div class="container">
+                    <label for="fleisch">Fleisch:</label>
+                    <input type="checkbox" id="fleisch" name="fleisch" value="Hähnchen">
+                    <label for="fleisch">Hähnchen</label>
+                    <input type="checkbox" id="fleisch" name="fleisch" value="Lamm">
+                    <label for="fleisch">Lamm</label>
+                    <br>
+                    <input type="checkbox" id="fleisch" name="fleisch" value="Lamm">
+                    <label for="fleisch">Tomaten</label>
+                    
+                    <input type="checkbox" id="fleisch" name="fleisch" value="Lamm">
+                    <label for="fleisch">ohne Tomaten</label>
+                    <br>
+                    <input type="checkbox" id="fleisch" name="fleisch" value="Lamm">
+                    <label for="fleisch">Zwiebeln</label>
+                    
+                    <input type="checkbox" id="fleisch" name="fleisch" value="Lamm">
+                    <label for="fleisch">ohne Zwiebeln</label>
+                    <br>
+                    <input type="checkbox" id="fleisch" name="fleisch" value="Lamm">
+                    <label for="fleisch">Salat</label>
+                    
+                    <input type="checkbox" id="fleisch" name="fleisch" value="Lamm">
+                    <label for="fleisch">ohne Salat</label>
+                    <br>
+                    <input type="checkbox" id="fleisch" name="fleisch" value="Lamm">
+                    <label for="fleisch">Scharfe sauce</label>
+                    
+                    <input type="checkbox" id="fleisch" name="fleisch" value="Lamm">
+                    <label for="fleisch">Knoblauchsauce</label>
+                    <input type="checkbox" id="fleisch" name="fleisch" value="Lamm">
+                    <label for="fleisch">Ohne Sauce</label>
+                    <!-- Weitere Zutaten hier einfügen (z. B. Gemüse, Soße, etc.) -->
+                </div>
+                <div class="container">
+<!-- Füge diesen Code in deinem HTML-Formular ein -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<div class="center hideform">
+    <form action="/action_page.php">
+        <br>
+       <center>Ihre Bestellung ist bei uns eingegangen. </center>
+<br>Adresse: Adolph-Prior-Straße 11, Frankfurt am Main
+        <br>
+        <center>Ihr Döner kommt voraussichtlich in 50 Minuten.</center>
+
+        <br><br>
+        <input type="submit" value="VERSTANDEN">
+    </form>
+</div>
+<input id="show" value="Döner bestellen" class="button" onclick="showDeliveryPopup()">
+<script>
+$('#show').on('click', function () {
+    $('.center').show();
+    $(this).hide();
+})
+
+$('#close').on('click', function () {
+    $('.center').hide();
+    $('#show').show();
+})
+</script>
+
+
+
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="ul">
+            <p><a href="index.html" class="foot">Startseite</a></p>
+            <p><a href="Angebote.html" class="foot">Unsere Döner</a></p>
+            <p><a href="spiel.html" class="foot">Training</a></p>
+            <p><a href="kontakt.html" class="foot">Kontakt</a></p>
+        </div>
+        <div class="copyright">Dönerbank kopiright 2023</div>
+    </footer>
+</body>
+</html>
